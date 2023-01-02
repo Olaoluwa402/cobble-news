@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "cobble",
+    "slug": "cobble",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/cobble-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/cobble-splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "buildNumber": "1.0.0",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.olaoluwa402.cobble"
+    },
+    "android": {
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/cobble-adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.olaoluwa402.cobble"
+    },
+    "web": {
+      "favicon": "./assets/cobble-favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "990fa00e-632b-4441-8b25-15471b49bf2f"
+      }
+    }
+  }
+}
